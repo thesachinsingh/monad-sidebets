@@ -1,0 +1,91 @@
+{
+  "bets": {
+    "1": {
+      "id": 1,
+      "creator": 642913169,
+      "description": "Will 10+ projects be shipped from Monad Blitz?",
+      "amount": "0.5",
+      "token": "MON",
+      "yes": [
+        642913169
+      ],
+      "no": [],
+      "status": "OPEN"
+    },
+    "2": {
+      "id": 2,
+      "creator": 642913169,
+      "description": "Will I be able to ping the bot and create bet in DM?",
+      "amount": "1",
+      "token": "MON",
+      "yes": [
+        642913169
+      ],
+      "no": [],
+      "status": "RESOLVED (NO)",
+      "groupId": -1002644059068
+    },
+    "3": {
+      "id": 3,
+      "creator": 642913169,
+      "description": "Will resolve feature work?",
+      "amount": "1",
+      "token": "MON",
+      "yes": [
+        1319390800,
+        642913169
+      ],
+      "no": [],
+      "status": "OPEN",
+      "groupId": -1002644059068
+    },
+    "4": {
+      "id": 4,
+      "creator": 642913169,
+      "description": "Will the new features work?",
+      "amount": "2",
+      "token": "MON",
+      "yes": [],
+      "no": [],
+      "status": "OPEN",
+      "groupId": -1002644059068
+    },
+    "5": {
+      "id": 5,
+      "creator": 642913169,
+      "description": "i bet you can't come here in next 5 mins",
+      "amount": "yes",
+      "token": "MON",
+      "yes": [],
+      "no": [],
+      "status": "OPEN",
+      "groupId": -1002644059068
+    },
+    "6": {
+      "id": 6,
+      "creator": 642913169,
+      "description": "I will deafeat @Nidhinganiga in a chess battle",
+      "amount": "5",
+      "token": "MON",
+      "yes": [
+        642913169,
+        1319390800
+      ],
+      "no": [],
+      "status": "OPEN",
+      "groupId": -1002644059068
+    },
+    "7": {
+      "id": 7,
+      "creator": 642913169,
+      "description": "Monad is the best evm chain",
+      "amount": "1",
+      "token": "MON",
+      "yes": [],
+      "no": [],
+      "status": "RESOLVED (YES)",
+      "groupId": -1002644059068
+    }
+  },
+  "betIdCounter": 8
+}
