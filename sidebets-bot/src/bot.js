@@ -7,7 +7,7 @@ const BETS_FILE = path.join(__dirname, '../bets.json');
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 bot.use(session());
-
+//test comments
 // Load bets from file
 let bets = {};
 let betIdCounter = 1;
