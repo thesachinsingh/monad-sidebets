@@ -400,6 +400,16 @@ bot.command('leaderboard', async (ctx) => {
   await ctx.replyWithHTML(msg);
 });
 
+// Register native Telegram slash commands
+bot.telegram.setMyCommands([
+  { command: 'start', description: 'Start the bot and see main menu' },
+  { command: 'sidebet', description: 'Create a new sidebet' },
+  { command: 'listbets', description: 'List all open bets' },
+  { command: 'openbets', description: 'View open bets with join buttons' },
+  { command: 'resolvebet', description: 'Resolve your open bets' },
+  { command: 'leaderboard', description: 'Show the leaderboard of winners' },
+]);
+
 // Launch the bot
 bot.launch();
 
